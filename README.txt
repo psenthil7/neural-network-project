@@ -1,17 +1,5 @@
-Group Number: 12
-
-Group Members: Poorani Senthilnathan, Senait Pirani, Delia Kathryn Pung
-
-Each team member contributed equally, 33.33% each. 
-Poorani --> Worked on all parts, helped debug, bonus video
-Senait --> Worked on all parts, helped debug
-Delia --> Worked on all parts, helped debug
-
-Discussion from Step 3:
 
 Unlike typical BFS, we enqueue all input neurons because each one represents a unique pixel and must independently pass its value to the next layer. After discussion, we decided that this ensures that all downstream neurons receive their full set of inputs and the network performs a complete forward pass.
-
-Step 4:
 
 Using the modified BFS approach, the neurons are visited layer by layer, starting with all input neurons.
 The traversal order: 
